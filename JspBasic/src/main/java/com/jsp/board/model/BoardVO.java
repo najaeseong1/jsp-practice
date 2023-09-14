@@ -18,7 +18,7 @@ import java.time.LocalDateTime;
 	2. getter 메서드는 매개변수가 존재하지 않아야 한다.
 	3. 생성자는 매개값을 받지 않는 생성자(필수), 매개값을 받는 생성자(선택)가 존재한다.
 	4. 모든 getter/setter 메서드는 접근 제한이 public 이어야 한다.
-	
+		
 */
 
 public class BoardVO {
