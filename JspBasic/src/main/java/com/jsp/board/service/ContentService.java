@@ -14,8 +14,6 @@ public class ContentService implements IBoardService {
 		BoardVO board = BoardRepository.getInstance().getContent(bId);
 		request.setAttribute("content", board);
 		request.setAttribute("boardNo", bId);
-		
-
 	}
 
 }

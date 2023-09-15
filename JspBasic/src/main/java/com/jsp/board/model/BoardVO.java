@@ -28,7 +28,6 @@ public class BoardVO {
 	private LocalDateTime regDate;
 	
 	public BoardVO() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public BoardVO(String writer, String title, String content, LocalDateTime regDate) {

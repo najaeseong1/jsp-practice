@@ -2,6 +2,7 @@ package com.jsp.board.controller;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
+import java.util.Enumeration;
 import java.util.List;
 
 import javax.servlet.RequestDispatcher;
@@ -23,7 +24,7 @@ import com.jsp.board.service.SearchService;
 import com.jsp.board.service.UpdateService;
 
 @WebServlet("*.board")
-public class BoardController extends HttpServlet {
+public class BoardController<e> extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
 	private IBoardService sv;
@@ -62,7 +63,6 @@ public class BoardController extends HttpServlet {
             컨트롤러로 글 목록 요청이 다시 들어올 수 있게끔
             sendRedirect()를 사용하여 자동 목록 재 요청이 들어오게 하는 겁니다.
             */
-			
 			response.sendRedirect("/JspBasic/list.board");
 			break;
 		case "list":

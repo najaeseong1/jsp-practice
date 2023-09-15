@@ -8,7 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 // 서블릿 맵핑 url 패턴 종류
-
 //1. 디렉토리 패턴: 디렉토리 형태로 서버의 해당 컴포넌트를 찾아서 실행하는 구조
 //-> 정해진 url로만 서블릿에 요청을 보낼 수가 있습니다.
 
